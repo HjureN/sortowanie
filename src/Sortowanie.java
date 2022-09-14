@@ -10,6 +10,12 @@ public class Sortowanie {
             tablica[i]=pomoc;
         }
     }
+    /********
+     * nazwa funkcji: Sortowanie
+     * parametry wejściowe: tablica
+     * wartosc zwracana: zwraca indeks maksymalnej wartosci
+     * autor: 000000000000
+     */
     public int maksymalna(int i){
         int indexSz = i;
         int maks = tablica[i];
@@ -21,6 +27,12 @@ public class Sortowanie {
         }
         return indexSz;
     }
+    /********
+     * nazwa funkcji: maksymalna
+     * parametry wejściowe: tablica
+     * wartosc zwracana: zwraca indeks maksymalnej wartosci
+     * autor: 000000000000
+     */
     void wypelnijTablice(){
         tablica=new int[10];
         System.out.println("Podaj 10 elementów tablicy");
@@ -28,6 +40,12 @@ public class Sortowanie {
         for(int i=0;i<10;i++){
             System.out.println("Podaj element"+i);
             tablica[i] = klawiatura.nextInt();
+            /********
+             * nazwa funkcji: wypelnijTablice
+             * parametry wejściowe: tablica
+             * wartosc zwracana: zwraca indeks maksymalnej wartosci
+             * autor: 000000000000
+             */
         }
     }
     void wypiszTablice(){
@@ -37,3 +55,9 @@ public class Sortowanie {
         }
     }
 }
+/********
+ * nazwa funkcji: wypiszTablice
+ * parametry wejściowe: tablica
+ * wartosc zwracana: zwraca indeks maksymalnej wartosci
+ * autor: 000000000000
+ */
